@@ -1,0 +1,21 @@
+The students database will have three tables to store students
+and their grade information.
+
+students table with the students information
+
+id           int
+first_name   text
+last_name    text
+email        varchar
+
+Classes table with information about which class a student is taking
+
+id      int
+class_name   text
+student_id   int
+
+And grades table that has the grades for the classes a student has taken
+
+class_id  int
+student_id  int
+grade  varchar 
